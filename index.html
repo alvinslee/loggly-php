@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>User Information App</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+
+<div id="addUserFormContainer" class="container" style="max-width: 600px">
+  <div class="card">
+    <div class="card-content">
+      <span class="card-title">Add New User</span>
+      <form id="addUserForm">
+        <div class="input-field">
+          <input type="text" id="username" name="username" required>
+          <label for="username">Username</label>
+        </div>
+        <div class="input-field">
+          <input type="text" id="first_name" name="first_name" required>
+          <label for="first_name">First Name</label>
+        </div>
+        <div class="input-field">
+          <input type="text" id="last_name" name="last_name" required>
+          <label for="last_name">Last Name</label>
+        </div>
+        <div class="input-field">
+          <input type="email" id="email" name="email" required>
+          <label for="email">Email</label>
+        </div>
+        <button type="submit" class="btn waves-effect waves-light">Add User</button>
+      </form>
+    </div>
+  </div>
+</div>
+<div id="content">
+  <!-- User information will be displayed here -->
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>
+

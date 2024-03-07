@@ -1,0 +1,8 @@
+<?php
+
+define('DB_HOST', 'REPLACE ME');
+define('DB_USERNAME', 'REPLACE ME');
+define('DB_PASSWORD', 'REPLACE ME');
+define('DB_NAME', 'REPLACE ME');
+
+define('LOGGLY_TOKEN', 'REPLACE ME');
